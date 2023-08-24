@@ -26,7 +26,7 @@ paths:
                       type: string
                   example:
                     email: 'hoangnv@ai-t.vn'
-                    password: 'Hoang1235'
+                    password: 'Hoang1234'
       responses:
         '200':
           description: Login success
@@ -85,8 +85,8 @@ paths:
                       type: string
                   example:
                     email: 'hoangnv@ai-t.vn'
-                    password: 'Hoang1235'
-                    password_confirm: 'Hoang1235'
+                    password: 'Hoang1234'
+                    password_confirm: 'Hoang1234'
       responses:
         '200':
           description: Sign up success
@@ -164,7 +164,7 @@ paths:
                 password_confirmation:
                   type: string
               example:
-                current_password: 'Hoang1235'
+                current_password: 'Hoang1234'
                 password: 'Hoang123'
                 password_confirmation: 'Hoang123'
       responses:
